@@ -22,7 +22,7 @@ app.use('/api/tasks', require('./routes/taskRoutes'));
 app.use('/api/notifications', require('./routes/notificationRoutes'));
 app.use('/api/comments', require('./routes/commentRoutes'));
 
-app.get('/', (req, res) => res.send('Jira Clone API is Live! 🚀'));
+app.get('/', (req, res) => res.send(' API is Live! 🚀'));
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => console.log(`🚀 Server on port ${PORT}`));
